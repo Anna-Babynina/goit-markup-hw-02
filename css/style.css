@@ -1,3 +1,6 @@
 .site-nav .link.current {
   color: chartreuse;
 }
+.site-nav.list {
+  color: #212121;
+}
