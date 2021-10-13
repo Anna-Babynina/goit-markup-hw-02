@@ -41,14 +41,13 @@ body {
 }
 /* ------------------ header-------------------- */
 
-.logo{
+.logo {
   font-family: "raleway";
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--header-color)
+} 
 
-}
 .logo-color{
 color: var(--accent-color);
 }
@@ -132,7 +131,7 @@ color: var(--accent-color);
 
 /* ------------------menu portfolio------------------- */
 
-.button-portfolio{
+.menu-portfolio{
  font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -141,12 +140,11 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--header-color);
 }
-.button-list{
-  position: absolute;
-width: 611px;
-height: 54px;
-left: 480px;
-top: 154px;
+
+.first-button{
+color:#ffffff;
+background-color: #2196F3;
+
 }
 
 .galary-text{
@@ -212,28 +210,29 @@ color: var(--header-color);
     color: var(--primary-title-color);
   }
 
-.contacts-tel{
+.contacts-tel .link{
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  
 }
 
-.contacts-mailto{
+.contacts-mailto .link{
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  
 }
 
 .contacts-adress{
+  color:var(--primary-title-color); 
   font-style: normal;
   font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color:var(--primary-title-color); 
+
 }
 
 
