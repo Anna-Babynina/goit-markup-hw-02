@@ -113,6 +113,19 @@ color: var(--accent-color);
 
 /* ------------------our benefits-------------------- */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 
 .benefits-title {
   font-size: 14px;
@@ -131,17 +144,14 @@ color: var(--accent-color);
 
 /* ------------------menu portfolio------------------- */
 
-.menu-portfolio .list{
- font-style: normal;
+.menu-button {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--header-color);
+color: #212121;
 }
-
-
 
 .galary-text{
   font-size: 16px;
@@ -170,12 +180,14 @@ color: var(--header-color);
 }
 
 /* ------------------our team-------------------- */
+
 .team-title {
+  color: var(--header-color)
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.33em
-  color: var(--header-color)
+  
 }
 
 .team-subtitle {
